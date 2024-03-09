@@ -3,9 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figma to html</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Fitness and health</title>
   </head>
   <body>
-    <h1>Figma to html</h1>
+    <!-- header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="" alt="logo_nhom" class="logo" />
+
+          <!-- nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Workout</a>
+              </li>
+              <li>
+                <a href="#!">Health</a>
+              </li>
+              <li>
+                <a href="#!">Blog</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- btn action -->
+          <div class="action">
+            <a href="#!" class="btn btn-sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="hero">
+        <div class="main-content">
+          <div class="body">
+            <!-- hero left -->
+            <div class="media-block">
+              <img
+                src="./assets/img/guy.jpg"
+                alt="Health and fitness"
+                class="img"
+              />
+
+              <div class="hero-summary">
+                <!-- item 1 -->
+                <div class="item">
+                  <div class="icon">
+                    <img src="" alt="" />
+                  </div>
+
+                  <div class="info">
+                    <p class="label"></p>
+                    <p class="title"></p>
+                  </div>
+                </div>
+
+                <!-- item 2 -->
+                <div class="item">
+                  <div class="icon icon2">
+                    <img src="" alt="" />
+                  </div>
+
+                  <div class="info">
+                    <p class="label"></p>
+                    <p class="title"></p>
+                  </div>
+                </div>
+
+                <!-- item 3 -->
+                <div class="item">
+                  <div class="icon icon3">
+                    <img src="" alt="" />
+                  </div>
+
+                  <div class="info">
+                    <p class="label"></p>
+                    <p class="title"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- hero right -->
+            <div class="content-block">
+              <h1 class="heading">Health and fitness</h1>
+
+              <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus, velit qui? Quos quam fugit hic nesciunt minima
+                ratione repudiandae autem.
+              </p>
+
+              <div class="cta-group">
+                <a href="#!" class="btn hero-cta">See</a>
+
+                <button class="watch-video">
+                  <div class="icon">
+                    <img src="./assets/icon/play.svg" alt="" />
+                  </div>
+                  <span>Watch video</span>
+                </button>
+              </div>
+
+              <p class="desc desc-recent">Lorem autem.</p>
+              <p class="desc stats">
+                <strong>50K</strong> Students <strong>100+</strong> Courses
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
